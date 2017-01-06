@@ -1,5 +1,8 @@
 package com.lingoport.demo.java;
 
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Font;
 import java.util.Locale;
 
 import javax.swing.*;
