@@ -46,14 +46,14 @@ public class ExampleMain {
     		}
     	}
     	
-    	I18nUtils.setLocale(locale); 
+    	I18nUtils.setLocale(locale); // $NON-NLS-L$
 
         //-- Make an invisible frame to attach the dialog to
         JFrame frame = new JFrame(); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ExamplePanel panel = new ExamplePanel();
         frame.getContentPane().add(panel);
-        changeFont(frame, new Font("Courier", Font.BOLD,28)); 
+        changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
         frame.pack();
         frame.setVisible(true);
         String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE")  + locale; // $NON-NLS-L$
