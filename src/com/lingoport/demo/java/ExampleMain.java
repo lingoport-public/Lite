@@ -29,20 +29,21 @@ public class ExampleMain {
     		
     		// Try to build with a variant
     		try {
-    			Locale candidateLocale = new Locale(localeStr[0], localeStr[1], localeStr[2]);
-    			locale = candidateLocale;
+    			locale = new Locale(localeStr[0], localeStr[1], localeStr[2]);
     		} catch (Exception ignore) {
         		try {
         			// if bad, for whatever reason, try without variant
-        			Locale candidateLocale = new Locale(localeStr[0], localeStr[1]);
-        			locale = candidateLocale;
+        			locale = new Locale(localeStr[0], localeStr[1]);
         		} catch (Exception ex) {
-        			// If bad, just continue with the default locale
+        			try {
+        			// If bad, try with only the language, nothing else
+        				locale = new Locale(localeStr[0]);
+        			} catch (Exception bad) {
+        				// oh well, the default en_US
+        				locale = new Locale ("en", "US");
+        			}
         		}			
-
-
-    		}			
-
+    		}
     	}
     	
     	I18nUtils.setLocale(locale); 
