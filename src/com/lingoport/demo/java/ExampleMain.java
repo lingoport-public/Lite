@@ -40,7 +40,7 @@ public class ExampleMain {
         				locale = new Locale(localeStr[0]);
         			} catch (Exception bad) {
         				// oh well, the default en_US
-        				locale = new Locale ("en", "US");
+        				locale = new Locale ("en", "US"); //$NON-NLS-L$ 
         			}
         		}			
     		}
