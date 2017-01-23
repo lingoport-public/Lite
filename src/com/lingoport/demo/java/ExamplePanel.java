@@ -54,12 +54,12 @@ public class ExamplePanel extends JPanel {
     JTextField emailJText_ = new JTextField(15);
     
     // Initial Test Data for Debugging
-    String name_ = "Jim Smith";  //$NON-NLS-L$ 
+    String name_ = "Bob Smith";  //$NON-NLS-L$ 
     String street_ = "2025 Main St."; //$NON-NLS-L$ 
     String apartment_; 
     String city_ = "Boulder, CO"; //$NON-NLS-L$ 
     String zip_="80301";  //$NON-NLS-L$ 
-    String phone_;
+    String phone_="123-456-7890;
     String email_;
     
     
