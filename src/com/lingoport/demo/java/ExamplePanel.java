@@ -395,7 +395,7 @@ public class ExamplePanel extends JPanel {
     @SuppressWarnings("unused")  
 	private void showEmptyFilenameMessage() {
 
-        String message = "A Field Is Empty";
+        String message = "The name field is empty";
         String heading = "Missing Field";
         JOptionPane.showMessageDialog(new JFrame(),
                                       message, heading,
