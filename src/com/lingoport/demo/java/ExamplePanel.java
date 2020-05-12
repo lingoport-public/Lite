@@ -123,7 +123,7 @@ public class ExamplePanel extends JPanel {
         
         ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
         addButton_ = new JButton( addButtonIcon);
-        addButton_.setToolTipText("Add Record");
+        addButton_.setToolTipText("Add Records");
         addButton_.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
