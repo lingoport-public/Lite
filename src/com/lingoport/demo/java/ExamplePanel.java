@@ -96,7 +96,7 @@ public class ExamplePanel extends JPanel {
 
     public void createButtons() {
 
-        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
+        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg"); // $NON-NLS-L$
         nextButton_ = new JButton( nextButtonIcon);
         nextButton_.setToolTipText(I18nUtils.getString("EXAM_NEXTCLE_1"));
         nextButton_.addActionListener(new ActionListener() {
@@ -121,7 +121,7 @@ public class ExamplePanel extends JPanel {
         Locale lc = I18nUtils.getLocale();
         bi = java.text.BreakIterator.getCharacterInstance(lc);
         
-        ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
+        ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg"); // $NON-NLS-L$
         addButton_ = new JButton( addButtonIcon);
         addButton_.setToolTipText("Add Records");
         addButton_.addActionListener(new ActionListener() {
@@ -130,7 +130,7 @@ public class ExamplePanel extends JPanel {
                 // Write to a file the data
                 // Start with the name for now
                 // TODO : the entire data
-                String testFilename = "test.html"; 
+                String testFilename = "test.html";  // $NON-NLS-L$
                 name_ = nameJText_.getText();
                 Encoding.writeOutput(testFilename, name_, Encoding.ASCII);
                 Debug.log("Add action taken: ["+ name_ + "], the name only, is persisted for checking; let's read it in again.");
@@ -143,7 +143,7 @@ public class ExamplePanel extends JPanel {
             }
         });
 
-        ImageIcon exitButtonIcon = ImageHelper.createImageIcon("images/exit.jpg");
+        ImageIcon exitButtonIcon = ImageHelper.createImageIcon("images/exit.jpg"); // $NON-NLS-L$
         exitButton_ = new JButton(exitButtonIcon);
         exitButton_.setToolTipText("Exit");
         exitButton_.addActionListener(new ActionListener() {
