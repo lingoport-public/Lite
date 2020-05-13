@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalyzerResults clientVersion="6.3.0_5" projectName="Lingoport.sandbox" basepath="C:/Users/Olivier/git/Lite" companyName="i18nDemo" endDate="2020-08-24" numLines="20000000" numProjects="100" numProducts="50" numRepositories="500">
-  <Scan scanName="Java Scan" ruleSetName="Java Sandbox" language="java" usedLocalRuleset="true" usedMachineLearning="false" lastScanDate="2020-05-13 11:42:39" filecount="1" linecount="81" total="1" active="0" invalid="0" ignore="0" resolved="0" todo="0" filtered="1" dfp="0">
-    <ScanSummary type="Embedded Strings" status="active" priority="all" prediction="all" count="0" predicted="0" />
+  <Scan scanName="Java Scan" ruleSetName="Java Sandbox" language="java" usedLocalRuleset="true" usedMachineLearning="false" lastScanDate="2020-05-13 11:48:54" filecount="1" linecount="83" total="3" active="2" invalid="0" ignore="0" resolved="0" todo="0" filtered="1" dfp="0">
+    <ScanSummary type="Embedded Strings" status="active" priority="all" prediction="all" count="2" predicted="2" />
     <ScanSummary type="Embedded Strings" status="invalid" count="0" />
     <ScanSummary type="Embedded Strings" status="ignore" count="0" />
     <ScanSummary type="Embedded Strings" status="resolved" count="0" />
     <ScanSummary type="Embedded Strings" status="todo" count="0" />
     <ScanSummary type="Embedded Strings" status="filtered" count="1" />
     <ScanSummary type="Embedded Strings" status="dfp" count="0" />
-    <ScanResults type="Embedded Strings" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanResults type="Embedded Strings" status="active" priority="all" prediction="all" count="2" predicted="2">
+      <result file="src/com/lingoport/demo/java/ExampleMain.java" linenum="56" prediction="-" reason="String" priority="1" help="" description="" startpos="35" endpos="44">
+        <issue>"Courier"</issue>
+        <line>changeFont(frame, new Font("Courier", Font.BOLD,28));</line>
+      </result>
+      <result file="src/com/lingoport/demo/java/ExampleMain.java" linenum="60" prediction="-" reason="String" priority="1" help="" description="" startpos="26" endpos="40">
+        <issue>"Address Book"</issue>
+        <line>String strTitle = "Address Book";</line>
+      </result>
+    </ScanResults>
     <ScanResults type="Embedded Strings" status="invalid" count="0" />
     <ScanResults type="Embedded Strings" status="ignore" count="0" />
     <ScanResults type="Embedded Strings" status="resolved" count="0" />

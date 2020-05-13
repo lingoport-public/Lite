@@ -58,7 +58,7 @@ public class ExampleMain {
         frame.pack();
         frame.setVisible(true);
         String strTitle = "Address Book";
-        // String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE"); // $NON-NLS-L$
+        // String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE"); // $NON-NLS-L$  
         frame.setTitle(strTitle);
     }
 	
