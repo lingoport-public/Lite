@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalyzerResults clientVersion="6.3.0_5" projectName="Lingoport.sandbox" basepath="C:/Users/Olivier/git/Lite" companyName="i18nDemo" endDate="2020-08-24" numLines="20000000" numProjects="100" numProducts="50" numRepositories="500">
+  <Scan scanName="Java Scan" ruleSetName="Java Sandbox" language="java" usedLocalRuleset="true" usedMachineLearning="false" lastScanDate="2020-05-13 11:42:39" filecount="1" linecount="81" total="1" active="0" invalid="0" ignore="0" resolved="0" todo="0" filtered="1" dfp="0">
+    <ScanSummary type="Embedded Strings" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanSummary type="Embedded Strings" status="invalid" count="0" />
+    <ScanSummary type="Embedded Strings" status="ignore" count="0" />
+    <ScanSummary type="Embedded Strings" status="resolved" count="0" />
+    <ScanSummary type="Embedded Strings" status="todo" count="0" />
+    <ScanSummary type="Embedded Strings" status="filtered" count="1" />
+    <ScanSummary type="Embedded Strings" status="dfp" count="0" />
+    <ScanResults type="Embedded Strings" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanResults type="Embedded Strings" status="invalid" count="0" />
+    <ScanResults type="Embedded Strings" status="ignore" count="0" />
+    <ScanResults type="Embedded Strings" status="resolved" count="0" />
+    <ScanResults type="Embedded Strings" status="todo" count="0" />
+    <ScanResults type="Embedded Strings" status="filtered" count="1">
+      <result file="src/com/lingoport/demo/java/ExampleMain.java" linenum="28" prediction="Negative" reason="No dictionary words" priority="" help="" description="" startpos="41" endpos="44">
+        <issue>"_"</issue>
+        <line>String localeStr[] = args[0].split("_");</line>
+      </result>
+    </ScanResults>
+    <ScanResults type="Embedded Strings" status="dfp" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="invalid" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="ignore" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="resolved" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="todo" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="filtered" count="0" />
+    <ScanSummary type="Locale-Sensitive Methods" status="dfp" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="invalid" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="ignore" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="resolved" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="todo" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="filtered" count="0" />
+    <ScanResults type="Locale-Sensitive Methods" status="dfp" count="0" />
+    <ScanSummary type="General Patterns" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanSummary type="General Patterns" status="invalid" count="0" />
+    <ScanSummary type="General Patterns" status="ignore" count="0" />
+    <ScanSummary type="General Patterns" status="resolved" count="0" />
+    <ScanSummary type="General Patterns" status="todo" count="0" />
+    <ScanSummary type="General Patterns" status="filtered" count="0" />
+    <ScanSummary type="General Patterns" status="dfp" count="0" />
+    <ScanResults type="General Patterns" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanResults type="General Patterns" status="invalid" count="0" />
+    <ScanResults type="General Patterns" status="ignore" count="0" />
+    <ScanResults type="General Patterns" status="resolved" count="0" />
+    <ScanResults type="General Patterns" status="todo" count="0" />
+    <ScanResults type="General Patterns" status="filtered" count="0" />
+    <ScanResults type="General Patterns" status="dfp" count="0" />
+    <ScanSummary type="Static File References" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanSummary type="Static File References" status="invalid" count="0" />
+    <ScanSummary type="Static File References" status="ignore" count="0" />
+    <ScanSummary type="Static File References" status="resolved" count="0" />
+    <ScanSummary type="Static File References" status="todo" count="0" />
+    <ScanSummary type="Static File References" status="filtered" count="0" />
+    <ScanSummary type="Static File References" status="dfp" count="0" />
+    <ScanResults type="Static File References" status="active" priority="all" prediction="all" count="0" predicted="0" />
+    <ScanResults type="Static File References" status="invalid" count="0" />
+    <ScanResults type="Static File References" status="ignore" count="0" />
+    <ScanResults type="Static File References" status="resolved" count="0" />
+    <ScanResults type="Static File References" status="todo" count="0" />
+    <ScanResults type="Static File References" status="filtered" count="0" />
+    <ScanResults type="Static File References" status="dfp" count="0" />
+  </Scan>
+</GlobalyzerResults>
+

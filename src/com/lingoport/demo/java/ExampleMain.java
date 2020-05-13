@@ -53,10 +53,12 @@ public class ExampleMain {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ExamplePanel panel = new ExamplePanel();
         frame.getContentPane().add(panel);
-        changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
+        changeFont(frame, new Font("Courier", Font.BOLD,28)); 
+        // changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
         frame.pack();
         frame.setVisible(true);
-        String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE")  + locale; // $NON-NLS-L$
+        String strTitle = "Address Book";
+        // String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE"); // $NON-NLS-L$
         frame.setTitle(strTitle);
     }
 	
