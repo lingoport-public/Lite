@@ -37,7 +37,7 @@ public class ExampleMain {
         		} catch (Exception ex) {
         			try {
         			// If bad, try with only the language, nothing else
-        				locale = new Locale(localeStr[0]);
+        				locale = new Locale(localeStr[0]); //$NON-NLS-L$ 
         			} catch (Exception bad) {
         				// oh well, the default en_US
         				locale = new Locale ("en", "US"); //$NON-NLS-L$ 
