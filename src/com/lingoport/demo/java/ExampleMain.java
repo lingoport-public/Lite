@@ -56,7 +56,10 @@ public class ExampleMain {
         changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
         frame.pack();
         frame.setVisible(true);
-        String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE")  + locale; // $NON-NLS-L$
+	// Will the following be detected?
+	String strTitle = "BookingsRUs: "   + locale;
+        // Below would be the i18n refactoring for this app
+	// String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE")  + locale; // $NON-NLS-L$
         frame.setTitle(strTitle);
     }
 	
