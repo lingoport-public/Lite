@@ -25,15 +25,15 @@ public class ExampleMain {
     	Locale locale = new Locale("en", "US"); // $NON-NLS-L$
     	if (args.length > 0) {
     		// try to split the string on _
-    		String localeStr[] = args[0].split("_");
+    		String localeStr[] = args[0].split("_"); //$NON-NLS-L$ 
     		
     		// Try to build with a variant
     		try {
-    			locale = new Locale(localeStr[0], localeStr[1], localeStr[2]);
+    			locale = new Locale(localeStr[0], localeStr[1], localeStr[2]); //$NON-NLS-L$ 
     		} catch (Exception ignore) {
         		try {
         			// if bad, for whatever reason, try without variant
-        			locale = new Locale(localeStr[0], localeStr[1]);
+        			locale = new Locale(localeStr[0], localeStr[1]); //$NON-NLS-L$ 
         		} catch (Exception ex) {
         			try {
         			// If bad, try with only the language, nothing else
