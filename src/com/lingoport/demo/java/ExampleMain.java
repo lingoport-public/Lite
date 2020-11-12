@@ -57,7 +57,7 @@ public class ExampleMain {
         frame.pack();
         frame.setVisible(true);
 	// Will the following be detected?
-	String strTitle = "Address book: "   + locale;
+	String strTitle = "Addresses: "   + locale;
         // Below would be the i18n refactoring for this app
 	// String strTitle = I18nUtils.getString("ADDRESS_BOOK_TITLE")  + locale; // $NON-NLS-L$
         frame.setTitle(strTitle);
