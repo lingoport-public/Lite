@@ -14,4 +14,6 @@ Developers can have their files checked for correctness with every commit, makin
 ## Localyzer Express
 When one adds, or modify strings in a .properties or create a new file, and commits that change, in whatever branch, the files are translated into a couple of locales using Localyzer Express.
 
+## --
+
 
