@@ -22,7 +22,6 @@ public class ExampleMain {
     	// if should be given in the form fr_FR or en_US
     	// of de_DE_Pseudo with a variant
     	// (simplistic argument parsing)
-	String ACCOUNT="Account Name";
     	Locale locale = new Locale("en", "US"); // $NON-NLS-L$
     	if (args.length > 0) {
     		// try to split the string on _
