@@ -180,7 +180,7 @@ public class ExamplePanel extends JPanel {
         TitledBorder tb = new TitledBorder(new LineBorder(Color.darkGray),                                        
                                            I18nUtils.getLocale()
          									+
-         									" for Today: ");
+         									" for today: ");
         datePanel_.setBorder(tb);
         datePanel_.setToolTipText("Displays today's date and time.");
 
