@@ -1,4 +1,4 @@
-# How to use this demo application
+# How to use this demo application For SOFLOC
 * Create your own branch from master
 * Modify a .java file and commit it: you will get a commit message for i18n correctness based on out of the box (non refined) rules
 * Modify a .properties file and commit it: you will have translations for those files in short order.
