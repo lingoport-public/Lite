@@ -15,7 +15,7 @@ import java.io.Writer;
 public class Encoding {
 	
 	// Encoding possibilities  
-	public static final String ASCII = "ASCII";  //$NON-NLS-L$ 
+	public static final String ASCII = "ASCII";  
 	public static final String UTF8 = "UTF-8";   //$NON-NLS-L$
 	public static final String UTF16 = "UTF-16"; //$NON-NLS-L$
 
