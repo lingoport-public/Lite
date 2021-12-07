@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// *****************************************************************************************
+//
+// DELL PROPRIETARY INFORMATION
+//
+// This software is confidential.  Dell Inc., or one of its subsidiaries, has supplied this
+// software to you under the terms of a license agreement,nondisclosure agreement or both.
+// You may not copy, disclose, or use this software except in accordance with those terms.
+//
+// Copyright 2019 - 2021 Dell Inc. or its subsidiaries.  All Rights Reserved.
+//
+// DELL INC. MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF THE SOFTWARE,
+// EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+// DELL SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING,
+// MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+//
+// ***************************************************************************************** 
+-->
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OP_1_Header" xml:space="preserve">
+    <value>New legendary experiences await you, {{SysProp:FirstName}}</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="OP_2_Header" xml:space="preserve">
+    <value>Let’s get you registered for warranty coverage</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="Home_Explore_Title" xml:space="preserve">
+    <value>EXPLORE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Explore_Description" xml:space="preserve">
+    <value>Discover your device, features and capabilities.</value>
+  </data>
+  <data name="Home_Support_Title" xml:space="preserve">
+    <value>SUPPORT</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Support_Description" xml:space="preserve">
+    <value>Launch {{DNT:SupportAssist}} to keep your PC optimized or to get help.</value>
+  </data>
+  <data name="OP_Button" xml:space="preserve">
+    <value>SKIP</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Offline_Header" xml:space="preserve">
+    <value>YOU'RE OFFLINE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Header" xml:space="preserve">
+    <value>ABOUT {{DNT:MY ALIENWARE}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_3rdParty" xml:space="preserve">
+    <value>THIRD PARTY LICENSES</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Timeout_Header" xml:space="preserve">
+    <value>Sorry, the registration process timed out. Please try again later.</value>
+  </data>
+  <data name="EP_Generic_Header" xml:space="preserve">
+    <value>SORRY</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Generic_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ServiceTag" xml:space="preserve">
+    <value>SERVICE TAG</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ServiceTag_Tooltip_Question" xml:space="preserve">
+    <value>What is a Service Tag?</value>
+  </data>
+  <data name="SysPanel_ExpressCode" xml:space="preserve">
+    <value>EXPRESS SERVICE CODE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ExpressCode_Tooltip_Question" xml:space="preserve">
+    <value>What is an Express Service Code?</value>
+  </data>
+  <data name="SysPanel_Warranty_Menu_Title" xml:space="preserve">
+    <value>WARRANTY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_Valid" xml:space="preserve">
+    <value>Your support level is {{SysProp:WarrantyName}} and your warranty expires on {{SysProp:WarrantyEndDate}}.</value>
+    <comment>WarrantyDate and Level comes from API Call.</comment>
+  </data>
+  <data name="SysPanel_Warranty_Expired" xml:space="preserve">
+    <value>Warranty expired.</value>
+  </data>
+  <data name="SysPanel_Registration_Completed" xml:space="preserve">
+    <value>Your system is registered.</value>
+  </data>
+  <data name="SysPanel_Registration_Incomplete" xml:space="preserve">
+    <value>{{Link:SysPanel_Registration_Link}} your system.</value>
+  </data>
+  <data name="SysPanel_Registration_Link" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="SysPanel_SysDetails_Menu_Title" xml:space="preserve">
+    <value>SYSTEM DETAILS</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_SysDetails_DeviceManuals" xml:space="preserve">
+    <value>DEVICE MANUALS</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Feedback" xml:space="preserve">
+    <value>{{Link:SysPanel_Feedback_Link}}</value>
+  </data>
+  <data name="LP_Explore_Banner_Header" xml:space="preserve">
+    <value>EXPLORE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_Banner_Subheader" xml:space="preserve">
+    <value>GET TO KNOW YOUR DEVICE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_Banner_Description" xml:space="preserve">
+    <value>Articles and resource to help you with your {{DNT:Alienware}} experience</value>
+  </data>
+  <data name="LP_Explore_WindowsAndPersonalization_Title" xml:space="preserve">
+    <value>WINDOWS AND PERSONALIZATION</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WindowsAndPersonalization_Description" xml:space="preserve">
+    <value>Change wallpaper, colors, passwords and personalize your device.</value>
+  </data>
+  <data name="LP_Explore_DeviceAndSoftware_Title" xml:space="preserve">
+    <value>DEVICE AND SOFTWARE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_DeviceAndSoftware_Description" xml:space="preserve">
+    <value>Explore your system's features, settings and software.</value>
+  </data>
+  <data name="LP_Explore_WirelessAndAccessories_Title" xml:space="preserve">
+    <value>WIRELESS AND ACCESSORIES</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WirelessAndAccessories_Description" xml:space="preserve">
+    <value>Go wireless, setup a network, add accessories and more.</value>
+  </data>
+  <data name="LP_Explore_SystemHealth_Title" xml:space="preserve">
+    <value>SYSTEM HEALTH</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_SystemHealth_Description" xml:space="preserve">
+    <value>Stay up to speed, backup files and get the latest drivers.</value>
+  </data>
+  <data name="LP_Accessories_Banner_Subheader" xml:space="preserve">
+    <value>ACCESSORIES FOR YOUR {{SysProp:LOB}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Title" xml:space="preserve">
+    <value>{{DNT:ALIENWARE COMMAND CENTER}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Description" xml:space="preserve">
+    <value>Transform your {{DNT:Windows}} PC into an enhanced gaming environment.</value>
+  </data>
+  <data name="Carousel_Default_Title" xml:space="preserve">
+    <value>{{DNT:MY ALIENWARE}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Default_Description" xml:space="preserve">
+    <value>This app is a one-stop shop for everything related to your {{DNT:Alienware}}. Get started by learning about your device and engaging with the community.</value>
+  </data>
+  <data name="Carousel_Register_Title" xml:space="preserve">
+    <value>REGISTER</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Register_Description" xml:space="preserve">
+    <value>Validate your purchase to enable faster diagnostics with enhanced support.</value>
+  </data>
+  <data name="Carousel_Register_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MobileConnect_Title" xml:space="preserve">
+    <value>{{DNT:ALIENWARE MOBILE CONNECT}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MobileConnect_Description" xml:space="preserve">
+    <value>Complete PC and smartphone wireless integration. Access calls, texts, notifications and mobile apps, all on your PC screen.</value>
+  </data>
+  <data name="Carousel_MobileConnect_Button" xml:space="preserve">
+    <value>CHECK IT OUT</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_WelcomeBack_Description" xml:space="preserve">
+    <value>Hi. This app is a one-stop shop for everything related to your {{DNT:Alienware}}.  Take a look around and see what's new.</value>
+  </data>
+  <data name="LP_Article_Banner_Header" xml:space="preserve">
+    <value>EXPLORE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Article_BackupRestore" xml:space="preserve">
+    <value>Back up and restore your files</value>
+  </data>
+  <data name="SysPanel_Warranty_Link" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="Toast_Registration_Reminder" xml:space="preserve">
+    <value>&lt;toast launch="action=viewEvent&amp;amp;eventId=1983"&gt;  
+  &lt;visual&gt;
+    &lt;binding template="ToastGeneric"&gt;
+      &lt;text&gt;Ready to register?&lt;/text&gt;
+      &lt;text&gt;Validate your purchase to enable faster diagnostics with enhanced support.&lt;/text&gt;
+    &lt;/binding&gt;
+  &lt;/visual&gt;
+  &lt;actions&gt;
+&lt;action friendlyname = "Yes" content="YES" arguments ="myalienware:///Registration" activationType="foreground" /&gt;
+&lt;action friendlyname = "NotNow"  content="NOT NOW" arguments ='{"LaunchType":"None", "Parameter":"Clear"}'   activationType="background" /&gt;  
+  &lt;/actions&gt;
+ &lt;/toast&gt;</value>
+    <comment>ONLY Translate the STRING content in the following 2 cases:
+- &lt;text&gt;STRING&lt;/text&gt; 
+-  content="STRING Should be UPPERCASE"
+
+*Exceptions will be called out in comments</comment>
+  </data>
+  <data name="TnT_AWSupport_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: {{DNT:ALIENWARE}} SUPPORT</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_AWSupport_Description" xml:space="preserve">
+    <value>Stay tuned for tips, news and helpful information. {{Link:TnT_AWSupport_Link}}</value>
+  </data>
+  <data name="TnT_AWSupport_Link" xml:space="preserve">
+    <value>Follow us.</value>
+  </data>
+  <data name="TnT_QuickLock_Accessibiltity_Text" xml:space="preserve">
+    <value>Quick Lock Icon</value>
+  </data>
+  <data name="TnT_QuickLock_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: QUICK LOCK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_QuickLock_Description" xml:space="preserve">
+    <value>In a hurry? Select {{DNT:Windows}} logo key {{image:1}} + L to quickly lock your PC or switch accounts.</value>
+  </data>
+  <data name="TnT_Recycle_Accessibility_Text" xml:space="preserve">
+    <value>Trade-in and recycle Icon</value>
+  </data>
+  <data name="TnT_Recycle_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: TRADE-IN AND RECYCLE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_Recycle_Description" xml:space="preserve">
+    <value>Earn {{DNT:Dell}} gift cards by trading in your electronics. {{Link:TnT_Recycle_Link}}</value>
+  </data>
+  <data name="TnT_Recycle_Link" xml:space="preserve">
+    <value>View details</value>
+  </data>
+  <data name="TnT_Emoji_Accessibility_Text" xml:space="preserve">
+    <value>Emoji panel Icon</value>
+  </data>
+  <data name="TnT_Emoji_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: EMOJI PANEL</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_Emoji_Description" xml:space="preserve">
+    <value>Open emoji panel by pressing {{DNT:Windows}} logo key {{image:1}} + period (.) or semicolon (;)</value>
+  </data>
+  <data name="TnT_ViewNotifications_Accessibiltity_Text" xml:space="preserve">
+    <value>View notifications Icon</value>
+  </data>
+  <data name="TnT_ViewNotifications_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: VIEW NOTIFICATIONS</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_ViewNotifications_Description" xml:space="preserve">
+    <value>Select action center on the taskbar to open it. (You can also swipe from the right edge of screen, or press {{DNT:Windows}} logo key {{image:1}} + A.)</value>
+  </data>
+  <data name="TnT_BluetoothDevice_Accessibiltity_Text" xml:space="preserve">
+    <value>Access {{DNT:bluetooth}} devices Icon</value>
+  </data>
+  <data name="TnT_BluetoothDevice_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: ACCESS {{DNT:BLUETOOTH}} DEVICES</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_BluetoothDevice_Description" xml:space="preserve">
+    <value>To enable bluetooth, on the taskbar, select action center &gt; {{DNT:Bluetooth}}.</value>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Accessibiltity_Text" xml:space="preserve">
+    <value>Duplicate or Extend your screen Icon</value>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Title" xml:space="preserve">
+    <value>TIPS &amp; TRICKS: DUPLICATE OR EXTEND YOUR SCREEN</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Description" xml:space="preserve">
+    <value>Choose a presentation display mode by selecting {{DNT:Windows}} logo key  {{image:1}}  + P</value>
+  </data>
+  <data name="LP_Article_GettingStarted" xml:space="preserve">
+    <value>Getting started</value>
+  </data>
+  <data name="LP_Article_WhatsNew" xml:space="preserve">
+    <value>What is new in {{DNT:Windows 10}}</value>
+  </data>
+  <data name="LP_Article_AnewLookforSettings" xml:space="preserve">
+    <value>A new look for settings</value>
+  </data>
+  <data name="LP_Article_IncreaseComputerPerformance" xml:space="preserve">
+    <value>Increasing computer performance</value>
+  </data>
+  <data name="LP_Article_KeyboardShortcuts" xml:space="preserve">
+    <value>Keyboard shortcuts in {{DNT:Windows}}</value>
+  </data>
+  <data name="LP_Article_MicrosoftAccount" xml:space="preserve">
+    <value>What is a {{DNT:Microsoft}} account</value>
+  </data>
+  <data name="LP_Article_CreateModifyPowerPlan" xml:space="preserve">
+    <value>Create or modify a power plan</value>
+  </data>
+  <data name="LP_Article_OfficeActivation" xml:space="preserve">
+    <value>{{DNT:Microsoft Office}} Activation</value>
+  </data>
+  <data name="LP_Article_DellDigitalDelivery" xml:space="preserve">
+    <value>{{DNT:Dell Digital Delivery}}</value>
+  </data>
+  <data name="LP_Article_SupportAssist" xml:space="preserve">
+    <value>How to Use {{DNT:SupportAssist}}</value>
+  </data>
+  <data name="LP_Article_BatteryPerf" xml:space="preserve">
+    <value>Battery Performance and Charging</value>
+  </data>
+  <data name="LP_Article_SwitchTabletModes" xml:space="preserve">
+    <value>Switch Tablet and Desktop Modes</value>
+  </data>
+  <data name="LP_Article_ConnectWirelessNetwork" xml:space="preserve">
+    <value>Connecting to a Wireless Network</value>
+  </data>
+  <data name="LP_Article_WindowsFirewall" xml:space="preserve">
+    <value>{{DNT:Windows}} firewall settings</value>
+  </data>
+  <data name="LP_Article_SetupWirelessKYBMouse" xml:space="preserve">
+    <value>Set up a wireless keyboard or mouse</value>
+  </data>
+  <data name="LP_Article_ShareFiles" xml:space="preserve">
+    <value>Sharing Files</value>
+  </data>
+  <data name="LP_Article_TurnWirelessOnOff" xml:space="preserve">
+    <value>Turn Wireless On and Off</value>
+  </data>
+  <data name="LP_Article_ProtectPCMalware" xml:space="preserve">
+    <value>Protecting your PC from malware</value>
+  </data>
+  <data name="LP_Article_CreateRecoveryMedia" xml:space="preserve">
+    <value>Creating your recovery media</value>
+  </data>
+  <data name="LP_Article_McAfeeLiveSafe" xml:space="preserve">
+    <value>{{DNT:McAfee LiveSafe}}</value>
+  </data>
+  <data name="LP_Article_DriversDownloads" xml:space="preserve">
+    <value>Drivers and Downloads</value>
+  </data>
+  <data name="LP_Article_DellUpdate" xml:space="preserve">
+    <value>{{DNT:Dell Update}}</value>
+  </data>
+  <data name="SysPanel_Warranty_StatusUnknown" xml:space="preserve">
+    <value>{{Link:SysPanel_Warranty_StatusUnknown_Link}}</value>
+  </data>
+  <data name="Carousel_AWArena_Title" xml:space="preserve">
+    <value>{{DNT:ALIENWARE ARENA REWARDS}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_AWArena_Description" xml:space="preserve">
+    <value>Earn points doing what you love: gaming. Play games, engage with the community, win prizes and gain access to exclusive offers.</value>
+  </data>
+  <data name="LP_Article_UsingLocationSettings" xml:space="preserve">
+    <value>Using Location Settings</value>
+  </data>
+  <data name="LP_Article_ChangeVideoSetting" xml:space="preserve">
+    <value>Change Video Settings</value>
+  </data>
+  <data name="EP_Offline_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Timeout_Button" xml:space="preserve">
+    <value>CONTINUE TO {{DNT:MY ALIENWARE}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ExpressCode_Tooltip_Answer" xml:space="preserve">
+    <value>The Express Service Code is an all numeric version of the Service Tag that may be used when calling {{DNT:Alienware}} Support.</value>
+  </data>
+  <data name="SysPanel_ServiceTag_Tooltip_Answer" xml:space="preserve">
+    <value>The Service Tag is a seven character identifier that is unique to your product and is used by {{DNT:Alienware}} Support to provide you product-specific help.</value>
+  </data>
+  <data name="IP_About_Description" xml:space="preserve">
+    <value>Stay informed with the latest updates, learn more about your {{DNT:Alienware}} system, and connect to the gaming community.</value>
+  </data>
+  <data name="SysPanel_About_Link" xml:space="preserve">
+    <value>ABOUT</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Feedback_Link" xml:space="preserve">
+    <value>FEEDBACK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_StatusUnknown_Link" xml:space="preserve">
+    <value>Check status here</value>
+  </data>
+  <data name="Carousel_WelcomeBack_Title" xml:space="preserve">
+    <value>{{DNT:MY ALIENWARE}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_AWSupport_Icon_Accessibiltity_Text" xml:space="preserve">
+    <value>{{DNT:Alienware}} Support Icon</value>
+  </data>
+  <data name="EP_Offline_Subheader" xml:space="preserve">
+    <value>PLEASE CONNECT TO THE INTERNET TO VIEW THIS CONTENT</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Community_Description" xml:space="preserve">
+    <value>Connect, share and compete with gamers worldwide.</value>
+  </data>
+  <data name="Home_Community_Title" xml:space="preserve">
+    <value>COMMUNITY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Social_Description" xml:space="preserve">
+    <value>Connect, share and compete with the gaming community.</value>
+  </data>
+  <data name="Home_Social_Title" xml:space="preserve">
+    <value>SOCIAL</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Arena_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Arena_Description" xml:space="preserve">
+    <value>Our Gaming Community nexus where you can find everything {{DNT:Alienware}} &amp; gaming.</value>
+  </data>
+  <data name="LP_Community_Banner_Header" xml:space="preserve">
+    <value>COMMUNITY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Community_Banner_Subheader" xml:space="preserve">
+    <value>JOIN THE CONVERSATION</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Banner_Header" xml:space="preserve">
+    <value>SOCIAL</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Banner_Subheader" xml:space="preserve">
+    <value>CONNECT WITH THE COMMUNITY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Discord_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Discord_Description" xml:space="preserve">
+    <value>Join the {{DNT:Alienware Discord}} channel for direct access to our community hosts.</value>
+  </data>
+  <data name="LP_Social_Twitch_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Twitch_Description" xml:space="preserve">
+    <value>Watch us LIVE on {{DNT:Twitch}} for daily content with partners, events, and our hosts.</value>
+    <comment>"LIVE"should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Youtube_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Youtube_Description" xml:space="preserve">
+    <value>Watch the {{DNT:Alienware YouTube}} channel for our latest community and product videos.</value>
+  </data>
+  <data name="LP_Social_Youtube_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:Youtube}}</value>
+  </data>
+  <data name="LP_Social_Twitch_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:Twitch}}</value>
+  </data>
+  <data name="LP_Social_Discord_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:Discord}}</value>
+  </data>
+  <data name="LP_Social_Arena_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:Arena}}</value>
+  </data>
+  <data name="LP_Social_WeChat_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:WeChat}}</value>
+  </data>
+  <data name="LP_Social_Weibo_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:Weibo}}</value>
+  </data>
+  <data name="LP_Social_AGA_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:AGA}}</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Button_Accessibility_Text" xml:space="preserve">
+    <value>Launch {{DNT:PlayersParadise}}</value>
+  </data>
+  <data name="LP_Social_Youtube_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Youtube}}</value>
+  </data>
+  <data name="LP_Social_Twitch_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Twitch}}</value>
+  </data>
+  <data name="LP_Social_Discord_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Discord}}</value>
+  </data>
+  <data name="LP_Social_Arena_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Arena}}</value>
+  </data>
+  <data name="LP_Social_WeChat_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:WeChat}}</value>
+  </data>
+  <data name="LP_Social_Weibo_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Weibo}}</value>
+  </data>
+  <data name="LP_Social_AGA_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:AGA}}</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Title_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:PlayersParadise}}</value>
+  </data>
+  <data name="LP_Accessories_Banner_Header" xml:space="preserve">
+    <value>ACCESSORIES</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Automation_Title" xml:space="preserve">
+    <value>Launch {{DNT:Alienware Command Center}}</value>
+  </data>
+  <data name="Home_Accessories_Description" xml:space="preserve">
+    <value>Stay connected, protected and powered up for any task.</value>
+  </data>
+  <data name="TnT_WindowsLogo_Accessibility_Text" xml:space="preserve">
+    <value>{{DNT:Windows}} Logo</value>
+  </data>
+  <data name="SysPanel_Copyright" xml:space="preserve">
+    <value>{{DNT:©DELL}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Privacy" xml:space="preserve">
+    <value>PRIVACY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Accessories_Title" xml:space="preserve">
+    <value>ACCESSORIES</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WindowsTips_Title" xml:space="preserve">
+    <value>{{DNT:Windows Tips}}</value>
+  </data>
+  <data name="SysPanel_About" xml:space="preserve">
+    <value>{{Link:SysPanel_About_Link}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="OP_1_Header_NonMSA" xml:space="preserve">
+    <value>New legendary experiences await you</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="Home_Social_China_Description" xml:space="preserve">
+    <value>Connect with {{DNT:Alienware}} on Social!</value>
+  </data>
+  <data name="LP_Social_AGA_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_AGA_Description" xml:space="preserve">
+    <value>{{DNT:ALIENWARE}} Esports competition</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_PlayersParadise_Description" xml:space="preserve">
+    <value>Find out more ways to play your {{DNT:ALIENWARE}}</value>
+  </data>
+  <data name="LP_Social_WeChat_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_WeChat_Description" xml:space="preserve">
+    <value>Find your group on {{DNT:ALIENWARE}} {{DNT:WeChat}}!</value>
+  </data>
+  <data name="LP_Social_Weibo_Button" xml:space="preserve">
+    <value>GO</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Weibo_Description" xml:space="preserve">
+    <value>{{DNT:ALIENWARE}} news sharing</value>
+  </data>
+  <data name="LP_Social_China_Banner_Description" xml:space="preserve">
+    <value>What’s the experience to be an {{DNT:ALIENWARE}}? Let me tell you: the first hand product information, game review, and {{DNT:ALIENWARE}} services…… Keep in mind, WE’RE GAME!</value>
+  </data>
+  <data name="LP_Social_China_Banner_Subheader" xml:space="preserve">
+    <value>GAMING SOCIAL</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SP_WeChat_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SP_WeChat_Description" xml:space="preserve">
+    <value>Scan the QR code with the {{DNT:WeChat}} app on your mobile device to get started.</value>
+  </data>
+  <data name="SP_WeChat_Header" xml:space="preserve">
+    <value>CONNECT WITH {{DNT:WECHAT}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_AWManuals_Title" xml:space="preserve">
+    <value>{{DNT:ALIENWARE}} SYSTEM MANUALS</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_AWManuals_Description" xml:space="preserve">
+    <value>Level up by learning how to achieve the ultimate {{DNT:Alienware}} Experience.</value>
+  </data>
+  <data name="LP_Article_AWGameBarVideo" xml:space="preserve">
+    <value>Using Game Bar</value>
+  </data>
+  <data name="LP_Article_AWGameMode" xml:space="preserve">
+    <value>Enable or disable Game Mode</value>
+  </data>
+  <data name="LP_Article_AWOverclocking" xml:space="preserve">
+    <value>{{DNT:Alienware}} Overclocking</value>
+  </data>
+  <data name="Carousel_AWArena_Button" xml:space="preserve">
+    <value>JOIN</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_LearnMore" xml:space="preserve">
+    <value>{{Link:SysPanel_Warranty_Link}}</value>
+  </data>
+  <data name="EP_Exception_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Exception_Header" xml:space="preserve">
+    <value>SORRY</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Exception_Subheader" xml:space="preserve">
+    <value>THERE WAS AN ERROR. PLEASE RESTART THE {{DNT:MY ALIENWARE}} APP.</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Generic_Subheader" xml:space="preserve">
+    <value>THERE WAS AN ERROR IN THE APPLICATION.</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Recycle_Button" xml:space="preserve">
+    <value>LEARN MORE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Recycle_Description" xml:space="preserve">
+    <value>Trade in your device of any brand and get a {{DNT:Dell}} Gift Card towards your next purchase.</value>
+  </data>
+  <data name="Carousel_Recycle_Title" xml:space="preserve">
+    <value>HOW TO RECYCLE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Search_Bar" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Home_Search_No_Result" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="Articles_Menu_Btn_Accessibility_Text" xml:space="preserve">
+    <value>Articles menu</value>
+  </data>
+  <data name="Carousel_Pause_Btn_Accessibility_Text" xml:space="preserve">
+    <value>Carousel Pause</value>
+  </data>
+  <data name="Carousel_Play_Btn_Accessibility_Text" xml:space="preserve">
+    <value>Carousel Play</value>
+  </data>
+  <data name="Carousel_Tobii_Button" xml:space="preserve">
+    <value>EXPLORE {{DNT:TOBII}}</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Tobii_Description" xml:space="preserve">
+    <value>Go deeper into the game with {{DNT:Tobii}} Eyetracking. Boost game experiences, performance, content and streaming.</value>
+  </data>
+  <data name="Carousel_Tobii_Title" xml:space="preserve">
+    <value>ADVANCED EYE TRACKING</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Search_Cat_Articles" xml:space="preserve">
+    <value>EXPLORE/ARTICLES</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Header" xml:space="preserve">
+    <value>ARE YOU SURE?</value>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Subheader" xml:space="preserve">
+    <value>You must update to continue using the app. {{DNT:☹}}</value>
+    <comment>The emoji should be left as-is in the DNT section in all translated content</comment>
+  </data>
+  <data name="EP_Service_Installation_Inprogress_Message" xml:space="preserve">
+    <value>Installation In Progress...</value>
+  </data>
+  <data name="EP_Service_Start_Header" xml:space="preserve">
+    <value>STARTING SERVICE</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Start_Subheader" xml:space="preserve">
+    <value>The application service must be started to run {{DNT:My Alienware}}</value>
+  </data>
+  <data name="EP_Service_Update_Failed_Header" xml:space="preserve">
+    <value>PROBLEM OCCURRED</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Subheader" xml:space="preserve">
+    <value>A problem occurred with the installation. Check your network connection.</value>
+  </data>
+  <data name="EP_Service_Update_Header" xml:space="preserve">
+    <value>UPDATE AVAILABLE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Subheader" xml:space="preserve">
+    <value>To continue using {{DNT:My Alienware}}, please update the application. It’s worth it {{DNT:😀}}</value>
+    <comment>The emoji should be left as-is in DNT section in all translated content.</comment>
+  </data>
+  <data name="EP_Service_Start_Button" xml:space="preserve">
+    <value>OK</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Button1" xml:space="preserve">
+    <value>UPDATE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Button1" xml:space="preserve">
+    <value>UPDATE</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Button2" xml:space="preserve">
+    <value>NOT NOW</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Button1" xml:space="preserve">
+    <value>TRY AGAIN</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Button2" xml:space="preserve">
+    <value>CLOSE APP</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MyOffice_Button" xml:space="preserve">
+    <value>LEARN MORE</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MyOffice_Description" xml:space="preserve">
+    <value>An office suite for enhanced productivity.</value>
+  </data>
+  <data name="Carousel_MyOffice_Title" xml:space="preserve">
+    <value>{{DNT:МойOфис}}</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Inprogress_Message2" xml:space="preserve">
+    <value>This could take a few minutes, time to grab a coffee.</value>
+  </data>
+  <data name="Carousel_MyOffice_Disclaimer" xml:space="preserve">
+    <value>Link redirects to a website owned and {{Link:Carousel_MyOffice_Disclaimer_Link}}.</value>
+  </data>
+  <data name="Carousel_MyOffice_Disclaimer_Link" xml:space="preserve">
+    <value>managed by {{DNT:NCT}}</value>
+  </data>
+  <data name="Carousel_MyOffice_Tooltip" xml:space="preserve">
+    <value>In accordance with the requirements of Governmental Resolution No. 1867 and Order No. 3704-r (as may be further modified) , you are now being redirected to a software application owned or managed by {{DNT:New Cloud Technologies (NCT)}}. In case of software application performance-related questions, please contact {{DNT:NCT}} directly.</value>
+  </data>
+  <data name="Toast_Registration_Reminder_CN" xml:space="preserve">
+    <value>&lt;toast launch="myalienware:///Registration"&gt;  
+  &lt;visual&gt;
+    &lt;binding template="ToastGeneric"&gt;
+      &lt;text&gt;{{DNT:ToastMessage}}&lt;/text&gt;
+    &lt;/binding&gt;
+  &lt;/visual&gt;
+  &lt;actions&gt;
+&lt;action friendlyname = "DontShowAgain"  content="DON'T SHOW AGAIN" arguments ='{"LaunchType":"None", "Parameter":"Clear"}' activationType="background" /&gt;  
+  &lt;/actions&gt;
+ &lt;/toast&gt;</value>
+    <comment>ONLY Translate the STRING content in the following case:
+-  content="STRING Should be UPPERCASE"</comment>
+  </data>
+  <data name="Toast_Message_Reminder_CN_Online" xml:space="preserve">
+    <value>Please register to activate your service</value>
+  </data>
+  <data name="Toast_Message_Reminder_CN_Offline" xml:space="preserve">
+    <value>Please connect to the internet and register to activate your service</value>
+  </data>
+</root>
