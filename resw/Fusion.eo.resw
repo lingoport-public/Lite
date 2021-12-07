@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// *****************************************************************************************
+//
+// DELL PROPRIETARY INFORMATION
+//
+// This software is confidential.  Dell Inc., or one of its subsidiaries, has supplied this
+// software to you under the terms of a license agreement,nondisclosure agreement or both.
+// You may not copy, disclose, or use this software except in accordance with those terms.
+//
+// Copyright 2019 - 2021 Dell Inc. or its subsidiaries.  All Rights Reserved.
+//
+// DELL INC. MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF THE SOFTWARE,
+// EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+// DELL SHALL NOT BE LIABLE FOR ANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING,
+// MODIFYING OR DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+//
+// ***************************************************************************************** 
+-->
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" type="xsd:string"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute use="required" name="name" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" msdata:Ordinal="1" type="xsd:string"></xsd:element>
+                <xsd:element minOccurs="0" name="comment" msdata:Ordinal="2" type="xsd:string"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute use="required" name="name" msdata:Ordinal="1" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" msdata:Ordinal="3" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" msdata:Ordinal="4" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="value" msdata:Ordinal="1" type="xsd:string"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute use="required" name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OP_1_Header" xml:space="preserve">
+    <value>[Ñéŵ ļéĝéñðåŕý éẋþéŕîéñçéš åŵåîţ ýöû, {{ŠýšÞŕöþ:ƑîŕšţÑåɱé}}---------------- П國カ내]</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="OP_2_Header" xml:space="preserve">
+    <value>[Ļéţ’š ĝéţ ýöû ŕéĝîšţéŕéð ƒöŕ ŵåŕŕåñţý çöṽéŕåĝé-------------------- П國カ내]</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="Home_Explore_Title" xml:space="preserve">
+    <value>[ÉẊÞĻÖŔÉ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Explore_Description" xml:space="preserve">
+    <value>[Ðîšçöṽéŕ ýöûŕ ðéṽîçé, ƒéåţûŕéš åñð çåþåƀîļîţîéš.--------------------- П國カ내]</value>
+  </data>
+  <data name="Home_Support_Title" xml:space="preserve">
+    <value>[ŠÛÞÞÖŔŢ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Support_Description" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:ŠûþþöŕţÅššîšţ}} ţö ķééþ ýöûŕ ÞÇ öþţîɱîžéð öŕ ţö ĝéţ ĥéļþ.--------------------- П國カ내]</value>
+  </data>
+  <data name="OP_Button" xml:space="preserve">
+    <value>[ŠĶÎÞ- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Offline_Header" xml:space="preserve">
+    <value>[ÝÖÛ'ŔÉ ÖƑƑĻÎÑÉ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Header" xml:space="preserve">
+    <value>[ÅƁÖÛŢ {{ÐÑŢ:ṀÝ ÅĻÎÉÑŴÅŔÉ}}------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_3rdParty" xml:space="preserve">
+    <value>[ŢĤÎŔÐ ÞÅŔŢÝ ĻÎÇÉÑŠÉŠ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Timeout_Header" xml:space="preserve">
+    <value>[Šöŕŕý, ţĥé ŕéĝîšţŕåţîöñ þŕöçéšš ţîɱéð öûţ. Þļéåšé ţŕý åĝåîñ ļåţéŕ.------------------- П國カ내]</value>
+  </data>
+  <data name="EP_Generic_Header" xml:space="preserve">
+    <value>[ŠÖŔŔÝ--- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Generic_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ServiceTag" xml:space="preserve">
+    <value>[ŠÉŔṼÎÇÉ ŢÅĜ---- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ServiceTag_Tooltip_Question" xml:space="preserve">
+    <value>[Ŵĥåţ îš å Šéŕṽîçé Ţåĝ?---------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_ExpressCode" xml:space="preserve">
+    <value>[ÉẊÞŔÉŠŠ ŠÉŔṼÎÇÉ ÇÖÐÉ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ExpressCode_Tooltip_Question" xml:space="preserve">
+    <value>[Ŵĥåţ îš åñ Éẋþŕéšš Šéŕṽîçé Çöðé?------------ П國カ내]</value>
+  </data>
+  <data name="SysPanel_Warranty_Menu_Title" xml:space="preserve">
+    <value>[ŴÅŔŔÅÑŢÝ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_Valid" xml:space="preserve">
+    <value>[Ýöûŕ šûþþöŕţ ļéṽéļ îš {{ŠýšÞŕöþ:ŴåŕŕåñţýÑåɱé}} åñð ýöûŕ ŵåŕŕåñţý éẋþîŕéš öñ {{ŠýšÞŕöþ:ŴåŕŕåñţýÉñðÐåţé}}.------------------------ П國カ내]</value>
+    <comment>WarrantyDate and Level comes from API Call.</comment>
+  </data>
+  <data name="SysPanel_Warranty_Expired" xml:space="preserve">
+    <value>[Ŵåŕŕåñţý éẋþîŕéð.---------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_Registration_Completed" xml:space="preserve">
+    <value>[Ýöûŕ šýšţéɱ îš ŕéĝîšţéŕéð.------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_Registration_Incomplete" xml:space="preserve">
+    <value>[{{Ļîñķ:ŠýšÞåñéļ_Ŕéĝîšţŕåţîöñ_Ļîñķ}} ýöûŕ šýšţéɱ.--------------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_Registration_Link" xml:space="preserve">
+    <value>[Ŕéĝîšţéŕ--------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_SysDetails_Menu_Title" xml:space="preserve">
+    <value>[ŠÝŠŢÉṀ ÐÉŢÅÎĻŠ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_SysDetails_DeviceManuals" xml:space="preserve">
+    <value>[ÐÉṼÎÇÉ ṀÅÑÛÅĻŠ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Feedback" xml:space="preserve">
+    <value>[{{Ļîñķ:ŠýšÞåñéļ_Ƒééðƀåçķ_Ļîñķ}}----------- П國カ내]</value>
+  </data>
+  <data name="LP_Explore_Banner_Header" xml:space="preserve">
+    <value>[ÉẊÞĻÖŔÉ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_Banner_Subheader" xml:space="preserve">
+    <value>[ĜÉŢ ŢÖ ĶÑÖŴ ÝÖÛŔ ÐÉṼÎÇÉ----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_Banner_Description" xml:space="preserve">
+    <value>[Åŕţîçļéš åñð ŕéšöûŕçé ţö ĥéļþ ýöû ŵîţĥ ýöûŕ {{ÐÑŢ:Åļîéñŵåŕé}} éẋþéŕîéñçé-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Explore_WindowsAndPersonalization_Title" xml:space="preserve">
+    <value>[ŴÎÑÐÖŴŠ ÅÑÐ ÞÉŔŠÖÑÅĻÎŽÅŢÎÖÑ-------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WindowsAndPersonalization_Description" xml:space="preserve">
+    <value>[Çĥåñĝé ŵåļļþåþéŕ, çöļöŕš, þåššŵöŕðš åñð þéŕšöñåļîžé ýöûŕ ðéṽîçé.------------------ П國カ내]</value>
+  </data>
+  <data name="LP_Explore_DeviceAndSoftware_Title" xml:space="preserve">
+    <value>[ÐÉṼÎÇÉ ÅÑÐ ŠÖƑŢŴÅŔÉ------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_DeviceAndSoftware_Description" xml:space="preserve">
+    <value>[Éẋþļöŕé ýöûŕ šýšţéɱ'š ƒéåţûŕéš, šéţţîñĝš åñð šöƒţŵåŕé.-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Explore_WirelessAndAccessories_Title" xml:space="preserve">
+    <value>[ŴÎŔÉĻÉŠŠ ÅÑÐ ÅÇÇÉŠŠÖŔÎÉŠ------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WirelessAndAccessories_Description" xml:space="preserve">
+    <value>[Ĝö ŵîŕéļéšš, šéţûþ å ñéţŵöŕķ, åðð åççéššöŕîéš åñð ɱöŕé.--------------- П國カ내]</value>
+  </data>
+  <data name="LP_Explore_SystemHealth_Title" xml:space="preserve">
+    <value>[ŠÝŠŢÉṀ ĤÉÅĻŢĤ------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_SystemHealth_Description" xml:space="preserve">
+    <value>[Šţåý ûþ ţö šþééð, ƀåçķûþ ƒîļéš åñð ĝéţ ţĥé ļåţéšţ ðŕîṽéŕš.---------------- П國カ내]</value>
+  </data>
+  <data name="LP_Accessories_Banner_Subheader" xml:space="preserve">
+    <value>[ÅÇÇÉŠŠÖŔÎÉŠ ƑÖŔ ÝÖÛŔ {{ŠýšÞŕöþ:ĻÖƁ}}-------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ ÇÖṀṀÅÑÐ ÇÉÑŢÉŔ}}------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Description" xml:space="preserve">
+    <value>[Ţŕåñšƒöŕɱ ýöûŕ {{ÐÑŢ:Ŵîñðöŵš}} ÞÇ îñţö åñ éñĥåñçéð ĝåɱîñĝ éñṽîŕöñɱéñţ.--------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Default_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ṀÝ ÅĻÎÉÑŴÅŔÉ}}------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Default_Description" xml:space="preserve">
+    <value>[Ţĥîš åþþ îš å öñé-šţöþ šĥöþ ƒöŕ éṽéŕýţĥîñĝ ŕéļåţéð ţö ýöûŕ {{ÐÑŢ:Åļîéñŵåŕé}}. Ĝéţ šţåŕţéð ƀý ļéåŕñîñĝ åƀöûţ ýöûŕ ðéṽîçé åñð éñĝåĝîñĝ ŵîţĥ ţĥé çöɱɱûñîţý.-------------------------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Register_Title" xml:space="preserve">
+    <value>[ŔÉĜÎŠŢÉŔ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Register_Description" xml:space="preserve">
+    <value>[Ṽåļîðåţé ýöûŕ þûŕçĥåšé ţö éñåƀļé ƒåšţéŕ ðîåĝñöšţîçš ŵîţĥ éñĥåñçéð šûþþöŕţ.--------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Register_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MobileConnect_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ ṀÖƁÎĻÉ ÇÖÑÑÉÇŢ}}------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MobileConnect_Description" xml:space="preserve">
+    <value>[Çöɱþļéţé ÞÇ åñð šɱåŕţþĥöñé ŵîŕéļéšš îñţéĝŕåţîöñ. Åççéšš çåļļš, ţéẋţš, ñöţîƒîçåţîöñš åñð ɱöƀîļé åþþš, åļļ öñ ýöûŕ ÞÇ šçŕééñ.----------------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_MobileConnect_Button" xml:space="preserve">
+    <value>[ÇĤÉÇĶ ÎŢ ÖÛŢ----- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_WelcomeBack_Description" xml:space="preserve">
+    <value>[Ĥî. Ţĥîš åþþ îš å öñé-šţöþ šĥöþ ƒöŕ éṽéŕýţĥîñĝ ŕéļåţéð ţö ýöûŕ {{ÐÑŢ:Åļîéñŵåŕé}}.  Ţåķé å ļööķ åŕöûñð åñð šéé ŵĥåţ'š ñéŵ.----------------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_Banner_Header" xml:space="preserve">
+    <value>[ÉẊÞĻÖŔÉ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Article_BackupRestore" xml:space="preserve">
+    <value>[Ɓåçķ ûþ åñð ŕéšţöŕé ýöûŕ ƒîļéš----------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_Warranty_Link" xml:space="preserve">
+    <value>[Ļéåŕñ Ṁöŕé------------- П國カ내]</value>
+  </data>
+  <data name="Toast_Registration_Reminder" xml:space="preserve">
+    <value>&lt;toast launch="action=viewEvent&amp;amp;eventId=1983"&gt;  
+  &lt;visual&gt;
+    &lt;binding template="ToastGeneric"&gt;
+      &lt;text&gt;[Ŕéåðý ţö ŕéĝîšţéŕ?&lt;/text&gt;
+      &lt;text&gt;Ṽåļîðåţé ýöûŕ þûŕçĥåšé ţö éñåƀļé ƒåšţéŕ ðîåĝñöšţîçš ŵîţĥ éñĥåñçéð šûþþöŕţ.]&lt;/text&gt;
+    &lt;/binding&gt;
+  &lt;/visual&gt;
+  &lt;actions&gt;
+&lt;action friendlyname="Yes" content="YES" arguments="myalienware:///Registration" activationType="foreground" /&gt;
+&lt;action friendlyname="NotNow" content="NOT NOW" arguments='{" LaunchType":"None", "Parameter":"Clear"}' activationType="background" /&gt;  
+  &lt;/actions&gt;
+ &lt;/toast&gt;</value>
+    <comment>ONLY Translate the STRING content in the following 2 cases:
+- &lt;text&gt;STRING&lt;/text&gt; 
+-  content="STRING Should be UPPERCASE"
+
+*Exceptions will be called out in comments</comment>
+  </data>
+  <data name="TnT_AWSupport_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: {{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} ŠÛÞÞÖŔŢ----------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_AWSupport_Description" xml:space="preserve">
+    <value>[Šţåý ţûñéð ƒöŕ ţîþš, ñéŵš åñð ĥéļþƒûļ îñƒöŕɱåţîöñ. {{Ļîñķ:ŢñŢ_ÅŴŠûþþöŕţ_Ļîñķ}}---------------- П國カ내]</value>
+  </data>
+  <data name="TnT_AWSupport_Link" xml:space="preserve">
+    <value>[Ƒöļļöŵ ûš.------------- П國カ내]</value>
+  </data>
+  <data name="TnT_QuickLock_Accessibiltity_Text" xml:space="preserve">
+    <value>[Ǫûîçķ Ļöçķ Îçöñ-------- П國カ내]</value>
+  </data>
+  <data name="TnT_QuickLock_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ǪÛÎÇĶ ĻÖÇĶ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_QuickLock_Description" xml:space="preserve">
+    <value>[Îñ å ĥûŕŕý? Šéļéçţ {{ÐÑŢ:Ŵîñðöŵš}} ļöĝö ķéý {{îɱåĝé:1}} + Ļ ţö ǫûîçķļý ļöçķ ýöûŕ ÞÇ öŕ šŵîţçĥ åççöûñţš.----------------------- П國カ내]</value>
+  </data>
+  <data name="TnT_Recycle_Accessibility_Text" xml:space="preserve">
+    <value>[Ţŕåðé-îñ åñð ŕéçýçļé Îçöñ------------- П國カ내]</value>
+  </data>
+  <data name="TnT_Recycle_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ŢŔÅÐÉ-ÎÑ ÅÑÐ ŔÉÇÝÇĻÉ-------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_Recycle_Description" xml:space="preserve">
+    <value>[Éåŕñ {{ÐÑŢ:Ðéļļ}} ĝîƒţ çåŕðš ƀý ţŕåðîñĝ îñ ýöûŕ éļéçţŕöñîçš. {{Ļîñķ:ŢñŢ_Ŕéçýçļé_Ļîñķ}}------------------ П國カ내]</value>
+  </data>
+  <data name="TnT_Recycle_Link" xml:space="preserve">
+    <value>[Ṽîéŵ ðéţåîļš----- П國カ내]</value>
+  </data>
+  <data name="TnT_Emoji_Accessibility_Text" xml:space="preserve">
+    <value>[Éɱöĵî þåñéļ Îçöñ--------- П國カ내]</value>
+  </data>
+  <data name="TnT_Emoji_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ÉṀÖĴÎ ÞÅÑÉĻ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_Emoji_Description" xml:space="preserve">
+    <value>[Öþéñ éɱöĵî þåñéļ ƀý þŕéššîñĝ {{ÐÑŢ:Ŵîñðöŵš}} ļöĝö ķéý {{îɱåĝé:1}} + þéŕîöð (.) öŕ šéɱîçöļöñ (;)--------------------- П國カ내]</value>
+  </data>
+  <data name="TnT_ViewNotifications_Accessibiltity_Text" xml:space="preserve">
+    <value>[Ṽîéŵ ñöţîƒîçåţîöñš Îçöñ----------- П國カ내]</value>
+  </data>
+  <data name="TnT_ViewNotifications_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ṼÎÉŴ ÑÖŢÎƑÎÇÅŢÎÖÑŠ------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_ViewNotifications_Description" xml:space="preserve">
+    <value>[Šéļéçţ åçţîöñ çéñţéŕ öñ ţĥé ţåšķƀåŕ ţö öþéñ îţ. (Ýöû çåñ åļšö šŵîþé ƒŕöɱ ţĥé ŕîĝĥţ éðĝé öƒ šçŕééñ, öŕ þŕéšš {{ÐÑŢ:Ŵîñðöŵš}} ļöĝö ķéý {{îɱåĝé:1}} + Å.)-------------------------------------- П國カ내]</value>
+  </data>
+  <data name="TnT_BluetoothDevice_Accessibiltity_Text" xml:space="preserve">
+    <value>[Åççéšš {{ÐÑŢ:ƀļûéţööţĥ}} ðéṽîçéš Îçöñ--------------- П國カ내]</value>
+  </data>
+  <data name="TnT_BluetoothDevice_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ÅÇÇÉŠŠ {{ÐÑŢ:ƁĻÛÉŢÖÖŢĤ}} ÐÉṼÎÇÉŠ--------------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_BluetoothDevice_Description" xml:space="preserve">
+    <value>[Ţö éñåƀļé ƀļûéţööţĥ, öñ ţĥé ţåšķƀåŕ, šéļéçţ åçţîöñ çéñţéŕ &gt; {{ÐÑŢ:Ɓļûéţööţĥ}}.---------------- П國カ내]</value>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Accessibiltity_Text" xml:space="preserve">
+    <value>[Ðûþļîçåţé öŕ Éẋţéñð ýöûŕ šçŕééñ Îçöñ-------------- П國カ내]</value>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Title" xml:space="preserve">
+    <value>[ŢÎÞŠ &amp; ŢŔÎÇĶŠ: ÐÛÞĻÎÇÅŢÉ ÖŔ ÉẊŢÉÑÐ ÝÖÛŔ ŠÇŔÉÉÑ-------------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_DuplicateExtendScreen_Description" xml:space="preserve">
+    <value>[Çĥööšé å þŕéšéñţåţîöñ ðîšþļåý ɱöðé ƀý šéļéçţîñĝ {{ÐÑŢ:Ŵîñðöŵš}} ļöĝö ķéý  {{îɱåĝé:1}}  + Þ-------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_GettingStarted" xml:space="preserve">
+    <value>[Ĝéţţîñĝ šţåŕţéð-------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_WhatsNew" xml:space="preserve">
+    <value>[Ŵĥåţ îš ñéŵ îñ {{ÐÑŢ:Ŵîñðöŵš 10}}------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_AnewLookforSettings" xml:space="preserve">
+    <value>[Å ñéŵ ļööķ ƒöŕ šéţţîñĝš----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_IncreaseComputerPerformance" xml:space="preserve">
+    <value>[Îñçŕéåšîñĝ çöɱþûţéŕ þéŕƒöŕɱåñçé----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_KeyboardShortcuts" xml:space="preserve">
+    <value>[Ķéýƀöåŕð šĥöŕţçûţš îñ {{ÐÑŢ:Ŵîñðöŵš}}--------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_MicrosoftAccount" xml:space="preserve">
+    <value>[Ŵĥåţ îš å {{ÐÑŢ:Ṁîçŕöšöƒţ}} åççöûñţ-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_CreateModifyPowerPlan" xml:space="preserve">
+    <value>[Çŕéåţé öŕ ɱöðîƒý å þöŵéŕ þļåñ---------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_OfficeActivation" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ṁîçŕöšöƒţ Öƒƒîçé}} Åçţîṽåţîöñ-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_DellDigitalDelivery" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ðéļļ Ðîĝîţåļ Ðéļîṽéŕý}}---------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_SupportAssist" xml:space="preserve">
+    <value>[Ĥöŵ ţö Ûšé {{ÐÑŢ:ŠûþþöŕţÅššîšţ}}------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_BatteryPerf" xml:space="preserve">
+    <value>[Ɓåţţéŕý Þéŕƒöŕɱåñçé åñð Çĥåŕĝîñĝ------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_SwitchTabletModes" xml:space="preserve">
+    <value>[Šŵîţçĥ Ţåƀļéţ åñð Ðéšķţöþ Ṁöðéš----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_ConnectWirelessNetwork" xml:space="preserve">
+    <value>[Çöññéçţîñĝ ţö å Ŵîŕéļéšš Ñéţŵöŕķ------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_WindowsFirewall" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ŵîñðöŵš}} ƒîŕéŵåļļ šéţţîñĝš------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_SetupWirelessKYBMouse" xml:space="preserve">
+    <value>[Šéţ ûþ å ŵîŕéļéšš ķéýƀöåŕð öŕ ɱöûšé-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_ShareFiles" xml:space="preserve">
+    <value>[Šĥåŕîñĝ Ƒîļéš------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_TurnWirelessOnOff" xml:space="preserve">
+    <value>[Ţûŕñ Ŵîŕéļéšš Öñ åñð Öƒƒ------------ П國カ내]</value>
+  </data>
+  <data name="LP_Article_ProtectPCMalware" xml:space="preserve">
+    <value>[Þŕöţéçţîñĝ ýöûŕ ÞÇ ƒŕöɱ ɱåļŵåŕé----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_CreateRecoveryMedia" xml:space="preserve">
+    <value>[Çŕéåţîñĝ ýöûŕ ŕéçöṽéŕý ɱéðîå--------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_McAfeeLiveSafe" xml:space="preserve">
+    <value>[{{ÐÑŢ:ṀçÅƒéé ĻîṽéŠåƒé}}----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_DriversDownloads" xml:space="preserve">
+    <value>[Ðŕîṽéŕš åñð Ðöŵñļöåðš--------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_DellUpdate" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ðéļļ Ûþðåţé}}------------ П國カ내]</value>
+  </data>
+  <data name="SysPanel_Warranty_StatusUnknown" xml:space="preserve">
+    <value>[{{Ļîñķ:ŠýšÞåñéļ_Ŵåŕŕåñţý_ŠţåţûšÛñķñöŵñ_Ļîñķ}}-------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_AWArena_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ ÅŔÉÑÅ ŔÉŴÅŔÐŠ}}----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_AWArena_Description" xml:space="preserve">
+    <value>[Éåŕñ þöîñţš ðöîñĝ ŵĥåţ ýöû ļöṽé: ĝåɱîñĝ. Þļåý ĝåɱéš, éñĝåĝé ŵîţĥ ţĥé çöɱɱûñîţý, ŵîñ þŕîžéš åñð ĝåîñ åççéšš ţö éẋçļûšîṽé öƒƒéŕš.------------------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_UsingLocationSettings" xml:space="preserve">
+    <value>[Ûšîñĝ Ļöçåţîöñ Šéţţîñĝš----------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_ChangeVideoSetting" xml:space="preserve">
+    <value>[Çĥåñĝé Ṽîðéö Šéţţîñĝš--------- П國カ내]</value>
+  </data>
+  <data name="EP_Offline_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Timeout_Button" xml:space="preserve">
+    <value>[ÇÖÑŢÎÑÛÉ ŢÖ {{ÐÑŢ:ṀÝ ÅĻÎÉÑŴÅŔÉ}}------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_ExpressCode_Tooltip_Answer" xml:space="preserve">
+    <value>[Ţĥé Éẋþŕéšš Šéŕṽîçé Çöðé îš åñ åļļ ñûɱéŕîç ṽéŕšîöñ öƒ ţĥé Šéŕṽîçé Ţåĝ ţĥåţ ɱåý ƀé ûšéð ŵĥéñ çåļļîñĝ {{ÐÑŢ:Åļîéñŵåŕé}} Šûþþöŕţ.------------------------------ П國カ내]</value>
+  </data>
+  <data name="SysPanel_ServiceTag_Tooltip_Answer" xml:space="preserve">
+    <value>[Ţĥé Šéŕṽîçé Ţåĝ îš å šéṽéñ çĥåŕåçţéŕ îðéñţîƒîéŕ ţĥåţ îš ûñîǫûé ţö ýöûŕ þŕöðûçţ åñð îš ûšéð ƀý {{ÐÑŢ:Åļîéñŵåŕé}} Šûþþöŕţ ţö þŕöṽîðé ýöû þŕöðûçţ-šþéçîƒîç ĥéļþ.---------------------------------------- П國カ내]</value>
+  </data>
+  <data name="IP_About_Description" xml:space="preserve">
+    <value>[Šţåý îñƒöŕɱéð ŵîţĥ ţĥé ļåţéšţ ûþðåţéš, ļéåŕñ ɱöŕé åƀöûţ ýöûŕ {{ÐÑŢ:Åļîéñŵåŕé}} šýšţéɱ, åñð çöññéçţ ţö ţĥé ĝåɱîñĝ çöɱɱûñîţý.----------------------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_About_Link" xml:space="preserve">
+    <value>[ÅƁÖÛŢ--- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Feedback_Link" xml:space="preserve">
+    <value>[ƑÉÉÐƁÅÇĶ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_StatusUnknown_Link" xml:space="preserve">
+    <value>[Çĥéçķ šţåţûš ĥéŕé---------- П國カ내]</value>
+  </data>
+  <data name="Carousel_WelcomeBack_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ṀÝ ÅĻÎÉÑŴÅŔÉ}}------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="TnT_AWSupport_Icon_Accessibiltity_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Åļîéñŵåŕé}} Šûþþöŕţ Îçöñ----------------- П國カ내]</value>
+  </data>
+  <data name="EP_Offline_Subheader" xml:space="preserve">
+    <value>[ÞĻÉÅŠÉ ÇÖÑÑÉÇŢ ŢÖ ŢĤÉ ÎÑŢÉŔÑÉŢ ŢÖ ṼÎÉŴ ŢĤÎŠ ÇÖÑŢÉÑŢ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Community_Description" xml:space="preserve">
+    <value>[Çöññéçţ, šĥåŕé åñð çöɱþéţé ŵîţĥ ĝåɱéŕš ŵöŕļðŵîðé.---------------------- П國カ내]</value>
+  </data>
+  <data name="Home_Community_Title" xml:space="preserve">
+    <value>[ÇÖṀṀÛÑÎŢÝ----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Social_Description" xml:space="preserve">
+    <value>[Çöññéçţ, šĥåŕé åñð çöɱþéţé ŵîţĥ ţĥé ĝåɱîñĝ çöɱɱûñîţý.-------------- П國カ내]</value>
+  </data>
+  <data name="Home_Social_Title" xml:space="preserve">
+    <value>[ŠÖÇÎÅĻ----- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Arena_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Arena_Description" xml:space="preserve">
+    <value>[Öûŕ Ĝåɱîñĝ Çöɱɱûñîţý ñéẋûš ŵĥéŕé ýöû çåñ ƒîñð éṽéŕýţĥîñĝ {{ÐÑŢ:Åļîéñŵåŕé}} &amp; ĝåɱîñĝ.------------------ П國カ내]</value>
+  </data>
+  <data name="LP_Community_Banner_Header" xml:space="preserve">
+    <value>[ÇÖṀṀÛÑÎŢÝ----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Community_Banner_Subheader" xml:space="preserve">
+    <value>[ĴÖÎÑ ŢĤÉ ÇÖÑṼÉŔŠÅŢÎÖÑ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Banner_Header" xml:space="preserve">
+    <value>[ŠÖÇÎÅĻ----- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Banner_Subheader" xml:space="preserve">
+    <value>[ÇÖÑÑÉÇŢ ŴÎŢĤ ŢĤÉ ÇÖṀṀÛÑÎŢÝ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Discord_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Discord_Description" xml:space="preserve">
+    <value>[Ĵöîñ ţĥé {{ÐÑŢ:Åļîéñŵåŕé Ðîšçöŕð}} çĥåññéļ ƒöŕ ðîŕéçţ åççéšš ţö öûŕ çöɱɱûñîţý ĥöšţš.------------------ П國カ내]</value>
+  </data>
+  <data name="LP_Social_Twitch_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Twitch_Description" xml:space="preserve">
+    <value>[Ŵåţçĥ ûš ĻÎṼÉ öñ {{ÐÑŢ:Ţŵîţçĥ}} ƒöŕ ðåîļý çöñţéñţ ŵîţĥ þåŕţñéŕš, éṽéñţš, åñð öûŕ ĥöšţš.------------------- П國カ내]</value>
+    <comment>"LIVE"should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Youtube_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Youtube_Description" xml:space="preserve">
+    <value>[Ŵåţçĥ ţĥé {{ÐÑŢ:Åļîéñŵåŕé ÝöûŢûƀé}} çĥåññéļ ƒöŕ öûŕ ļåţéšţ çöɱɱûñîţý åñð þŕöðûçţ ṽîðéöš.------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Youtube_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Ýöûţûƀé}}---------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Twitch_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Ţŵîţçĥ}}--------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Discord_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Ðîšçöŕð}}---------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Arena_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Åŕéñå}}------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_WeChat_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:ŴéÇĥåţ}}--------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Weibo_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Ŵéîƀö}}------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_AGA_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:ÅĜÅ}}----------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Button_Accessibility_Text" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:ÞļåýéŕšÞåŕåðîšé}}----------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Youtube_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ýöûţûƀé}}-------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Twitch_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ţŵîţçĥ}}------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Discord_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ðîšçöŕð}}-------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Arena_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Åŕéñå}}------ П國カ내]</value>
+  </data>
+  <data name="LP_Social_WeChat_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:ŴéÇĥåţ}}------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Weibo_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ŵéîƀö}}------ П國カ내]</value>
+  </data>
+  <data name="LP_Social_AGA_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĜÅ}}---- П國カ내]</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Title_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÞļåýéŕšÞåŕåðîšé}}----------- П國カ내]</value>
+  </data>
+  <data name="LP_Accessories_Banner_Header" xml:space="preserve">
+    <value>[ÅÇÇÉŠŠÖŔÎÉŠ---- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_AWCC_Automation_Title" xml:space="preserve">
+    <value>[Ļåûñçĥ {{ÐÑŢ:Åļîéñŵåŕé Çöɱɱåñð Çéñţéŕ}}---------------- П國カ내]</value>
+  </data>
+  <data name="Home_Accessories_Description" xml:space="preserve">
+    <value>[Šţåý çöññéçţéð, þŕöţéçţéð åñð þöŵéŕéð ûþ ƒöŕ åñý ţåšķ.-------------- П國カ내]</value>
+  </data>
+  <data name="TnT_WindowsLogo_Accessibility_Text" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ŵîñðöŵš}} Ļöĝö------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_Copyright" xml:space="preserve">
+    <value>[{{ÐÑŢ:©ÐÉĻĻ}}------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="IP_About_Privacy" xml:space="preserve">
+    <value>[ÞŔÎṼÅÇÝ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Accessories_Title" xml:space="preserve">
+    <value>[ÅÇÇÉŠŠÖŔÎÉŠ---- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_WindowsTips_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:Ŵîñðöŵš Ţîþš}}------------- П國カ내]</value>
+  </data>
+  <data name="SysPanel_About" xml:space="preserve">
+    <value>[{{Ļîñķ:ŠýšÞåñéļ_Åƀöûţ_Ļîñķ}}--------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="OP_1_Header_NonMSA" xml:space="preserve">
+    <value>[Ñéŵ ļéĝéñðåŕý éẋþéŕîéñçéš åŵåîţ ýöû-------------- П國カ내]</value>
+    <comment>String should not end with punctuation</comment>
+  </data>
+  <data name="Home_Social_China_Description" xml:space="preserve">
+    <value>[Çöññéçţ ŵîţĥ {{ÐÑŢ:Åļîéñŵåŕé}} öñ Šöçîåļ!----------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_AGA_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_AGA_Description" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} Éšþöŕţš çöɱþéţîţîöñ--------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_PlayersParadise_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_PlayersParadise_Description" xml:space="preserve">
+    <value>[Ƒîñð öûţ ɱöŕé ŵåýš ţö þļåý ýöûŕ {{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}}---------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_WeChat_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_WeChat_Description" xml:space="preserve">
+    <value>[Ƒîñð ýöûŕ ĝŕöûþ öñ {{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} {{ÐÑŢ:ŴéÇĥåţ}}!------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_Weibo_Button" xml:space="preserve">
+    <value>[ĜÖ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Social_Weibo_Description" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} ñéŵš šĥåŕîñĝ----------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_China_Banner_Description" xml:space="preserve">
+    <value>[Ŵĥåţ’š ţĥé éẋþéŕîéñçé ţö ƀé åñ {{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}}? Ļéţ ɱé ţéļļ ýöû: ţĥé ƒîŕšţ ĥåñð þŕöðûçţ îñƒöŕɱåţîöñ, ĝåɱé ŕéṽîéŵ, åñð {{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} šéŕṽîçéš…… Ķééþ îñ ɱîñð, ŴÉ’ŔÉ ĜÅṀÉ!--------------------------------------------- П國カ내]</value>
+  </data>
+  <data name="LP_Social_China_Banner_Subheader" xml:space="preserve">
+    <value>[ĜÅṀÎÑĜ ŠÖÇÎÅĻ------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SP_WeChat_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SP_WeChat_Description" xml:space="preserve">
+    <value>[Šçåñ ţĥé ǪŔ çöðé ŵîţĥ ţĥé {{ÐÑŢ:ŴéÇĥåţ}} åþþ öñ ýöûŕ ɱöƀîļé ðéṽîçé ţö ĝéţ šţåŕţéð.----------------- П國カ내]</value>
+  </data>
+  <data name="SP_WeChat_Header" xml:space="preserve">
+    <value>[ÇÖÑÑÉÇŢ ŴÎŢĤ {{ÐÑŢ:ŴÉÇĤÅŢ}}-------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_AWManuals_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:ÅĻÎÉÑŴÅŔÉ}} ŠÝŠŢÉṀ ṀÅÑÛÅĻŠ------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="LP_Explore_AWManuals_Description" xml:space="preserve">
+    <value>[Ļéṽéļ ûþ ƀý ļéåŕñîñĝ ĥöŵ ţö åçĥîéṽé ţĥé ûļţîɱåţé {{ÐÑŢ:Åļîéñŵåŕé}} Éẋþéŕîéñçé.---------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_AWGameBarVideo" xml:space="preserve">
+    <value>[Ûšîñĝ Ĝåɱé Ɓåŕ------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_AWGameMode" xml:space="preserve">
+    <value>[Éñåƀļé öŕ ðîšåƀļé Ĝåɱé Ṁöðé-------------- П國カ내]</value>
+  </data>
+  <data name="LP_Article_AWOverclocking" xml:space="preserve">
+    <value>[{{ÐÑŢ:Åļîéñŵåŕé}} Öṽéŕçļöçķîñĝ----------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_AWArena_Button" xml:space="preserve">
+    <value>[ĴÖÎÑ- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="SysPanel_Warranty_LearnMore" xml:space="preserve">
+    <value>[{{Ļîñķ:ŠýšÞåñéļ_Ŵåŕŕåñţý_Ļîñķ}}----------- П國カ내]</value>
+  </data>
+  <data name="EP_Exception_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Exception_Header" xml:space="preserve">
+    <value>[ŠÖŔŔÝ--- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Exception_Subheader" xml:space="preserve">
+    <value>[ŢĤÉŔÉ ŴÅŠ ÅÑ ÉŔŔÖŔ. ÞĻÉÅŠÉ ŔÉŠŢÅŔŢ ŢĤÉ {{ÐÑŢ:ṀÝ ÅĻÎÉÑŴÅŔÉ}} ÅÞÞ.------------------ П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Generic_Subheader" xml:space="preserve">
+    <value>[ŢĤÉŔÉ ŴÅŠ ÅÑ ÉŔŔÖŔ ÎÑ ŢĤÉ ÅÞÞĻÎÇÅŢÎÖÑ.--------------- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Recycle_Button" xml:space="preserve">
+    <value>[ĻÉÅŔÑ ṀÖŔÉ------------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Recycle_Description" xml:space="preserve">
+    <value>[Ţŕåðé îñ ýöûŕ ðéṽîçé öƒ åñý ƀŕåñð åñð ĝéţ å {{ÐÑŢ:Ðéļļ}} Ĝîƒţ Çåŕð ţöŵåŕðš ýöûŕ ñéẋţ þûŕçĥåšé.--------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Recycle_Title" xml:space="preserve">
+    <value>[ĤÖŴ ŢÖ ŔÉÇÝÇĻÉ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Home_Search_Bar" xml:space="preserve">
+    <value>[Šéåŕçĥ----- П國カ내]</value>
+  </data>
+  <data name="Home_Search_No_Result" xml:space="preserve">
+    <value>[Ñö Ŕéšûļţš Ƒöûñð--------- П國カ내]</value>
+  </data>
+  <data name="Articles_Menu_Btn_Accessibility_Text" xml:space="preserve">
+    <value>[Åŕţîçļéš ɱéñû------ П國カ내]</value>
+  </data>
+  <data name="Carousel_Pause_Btn_Accessibility_Text" xml:space="preserve">
+    <value>[Çåŕöûšéļ Þåûšé------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Play_Btn_Accessibility_Text" xml:space="preserve">
+    <value>[Çåŕöûšéļ Þļåý------ П國カ내]</value>
+  </data>
+  <data name="Carousel_Tobii_Button" xml:space="preserve">
+    <value>[ÉẊÞĻÖŔÉ {{ÐÑŢ:ŢÖƁÎÎ}}--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_Tobii_Description" xml:space="preserve">
+    <value>[Ĝö ðééþéŕ îñţö ţĥé ĝåɱé ŵîţĥ {{ÐÑŢ:Ţöƀîî}} Éýéţŕåçķîñĝ. Ɓööšţ ĝåɱé éẋþéŕîéñçéš, þéŕƒöŕɱåñçé, çöñţéñţ åñð šţŕéåɱîñĝ.--------------------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_Tobii_Title" xml:space="preserve">
+    <value>[ÅÐṼÅÑÇÉÐ ÉÝÉ ŢŔÅÇĶÎÑĜ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Search_Cat_Articles" xml:space="preserve">
+    <value>[ÉẊÞĻÖŔÉ/ÅŔŢÎÇĻÉŠ--------- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Header" xml:space="preserve">
+    <value>[ÅŔÉ ÝÖÛ ŠÛŔÉ?------ П國カ내]</value>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Subheader" xml:space="preserve">
+    <value>[Ýöû ɱûšţ ûþðåţé ţö çöñţîñûé ûšîñĝ ţĥé åþþ. {{ÐÑŢ:☹}}------------- П國カ내]</value>
+    <comment>The emoji should be left as-is in the DNT section in all translated content</comment>
+  </data>
+  <data name="EP_Service_Installation_Inprogress_Message" xml:space="preserve">
+    <value>[Îñšţåļļåţîöñ Îñ Þŕöĝŕéšš...-------------- П國カ내]</value>
+  </data>
+  <data name="EP_Service_Start_Header" xml:space="preserve">
+    <value>[ŠŢÅŔŢÎÑĜ ŠÉŔṼÎÇÉ--------- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Start_Subheader" xml:space="preserve">
+    <value>[Ţĥé åþþļîçåţîöñ šéŕṽîçé ɱûšţ ƀé šţåŕţéð ţö ŕûñ {{ÐÑŢ:Ṁý Åļîéñŵåŕé}}------------------- П國カ내]</value>
+  </data>
+  <data name="EP_Service_Update_Failed_Header" xml:space="preserve">
+    <value>[ÞŔÖƁĻÉṀ ÖÇÇÛŔŔÉÐ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Subheader" xml:space="preserve">
+    <value>[Å þŕöƀļéɱ öççûŕŕéð ŵîţĥ ţĥé îñšţåļļåţîöñ. Çĥéçķ ýöûŕ ñéţŵöŕķ çöññéçţîöñ.-------------- П國カ내]</value>
+  </data>
+  <data name="EP_Service_Update_Header" xml:space="preserve">
+    <value>[ÛÞÐÅŢÉ ÅṼÅÎĻÅƁĻÉ--------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Subheader" xml:space="preserve">
+    <value>[Ţö çöñţîñûé ûšîñĝ {{ÐÑŢ:Ṁý Åļîéñŵåŕé}}, þļéåšé ûþðåţé ţĥé åþþļîçåţîöñ. Îţ’š ŵöŕţĥ îţ {{ÐÑŢ:&#x1f600;}}--------------------- П國カ내]</value>
+    <comment>The emoji should be left as-is in DNT section in all translated content.</comment>
+  </data>
+  <data name="EP_Service_Start_Button" xml:space="preserve">
+    <value>[ÖĶ П]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Cancelled_Button1" xml:space="preserve">
+    <value>[ÛÞÐÅŢÉ----- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Button1" xml:space="preserve">
+    <value>[ÛÞÐÅŢÉ----- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Button2" xml:space="preserve">
+    <value>[ÑÖŢ ÑÖŴ------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Button1" xml:space="preserve">
+    <value>[ŢŔÝ ÅĜÅÎÑ----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Update_Failed_Button2" xml:space="preserve">
+    <value>[ÇĻÖŠÉ ÅÞÞ----------- П國カ내]</value>
+    <comment>Should be in UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MyOffice_Button" xml:space="preserve">
+    <value>[ĻÉÅŔÑ ṀÖŔÉ------------- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="Carousel_MyOffice_Description" xml:space="preserve">
+    <value>[Åñ öƒƒîçé šûîţé ƒöŕ éñĥåñçéð þŕöðûçţîṽîţý.------------------ П國カ내]</value>
+  </data>
+  <data name="Carousel_MyOffice_Title" xml:space="preserve">
+    <value>[{{ÐÑŢ:МойÖфис}}-------- П國カ내]</value>
+    <comment>Should be UPPERCASE</comment>
+  </data>
+  <data name="EP_Service_Installation_Inprogress_Message2" xml:space="preserve">
+    <value>[Ţĥîš çöûļð ţåķé å ƒéŵ ɱîñûţéš, ţîɱé ţö ĝŕåƀ å çöƒƒéé.-------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_MyOffice_Disclaimer" xml:space="preserve">
+    <value>[Ļîñķ ŕéðîŕéçţš ţö å ŵéƀšîţé öŵñéð åñð {{Ļîñķ:Çåŕöûšéļ_ṀýÖƒƒîçé_Ðîšçļåîɱéŕ_Ļîñķ}}.----------------- П國カ내]</value>
+  </data>
+  <data name="Carousel_MyOffice_Disclaimer_Link" xml:space="preserve">
+    <value>[ɱåñåĝéð ƀý {{ÐÑŢ:ÑÇŢ}}---------- П國カ내]</value>
+  </data>
+  <data name="Carousel_MyOffice_Tooltip" xml:space="preserve">
+    <value>[Îñ åççöŕðåñçé ŵîţĥ ţĥé ŕéǫûîŕéɱéñţš öƒ Ĝöṽéŕñɱéñţåļ Ŕéšöļûţîöñ Ñö. 1867 åñð Öŕðéŕ Ñö. 3704-ŕ (åš ɱåý ƀé ƒûŕţĥéŕ ɱöðîƒîéð) , ýöû åŕé ñöŵ ƀéîñĝ ŕéðîŕéçţéð ţö å šöƒţŵåŕé åþþļîçåţîöñ öŵñéð öŕ ɱåñåĝéð ƀý {{ÐÑŢ:Ñéŵ Çļöûð Ţéçĥñöļöĝîéš (ÑÇŢ)}}. Îñ çåšé öƒ šöƒţŵåŕé åþþļîçåţîöñ þéŕƒöŕɱåñçé-ŕéļåţéð ǫûéšţîöñš, þļéåšé çöñţåçţ {{ÐÑŢ:ÑÇŢ}} ðîŕéçţļý.--------------------------------------------------------------------------------------------- П國カ내]</value>
+  </data>
+  <data name="Toast_Registration_Reminder_CN" xml:space="preserve">
+    <value>&lt;toast launch="myalienware:///Registration"&gt;  
+  &lt;visual&gt;
+    &lt;binding template="ToastGeneric"&gt;
+      &lt;text&gt;[{{ÐÑŢ:ŢöåšţṀéššåĝé}}]&lt;/text&gt;
+    &lt;/binding&gt;
+  &lt;/visual&gt;
+  &lt;actions&gt;
+&lt;action friendlyname="DontShowAgain" content="DON' T SHOW AGAIN" arguments='{" LaunchType":"None", "Parameter":"Clear"}' activationType="background" /&gt;  
+  &lt;/actions&gt;
+ &lt;/toast&gt;</value>
+    <comment>ONLY Translate the STRING content in the following case:
+-  content="STRING Should be UPPERCASE"</comment>
+  </data>
+  <data name="Toast_Message_Reminder_CN_Online" xml:space="preserve">
+    <value>[Þļéåšé ŕéĝîšţéŕ ţö åçţîṽåţé ýöûŕ šéŕṽîçé----------------- П國カ내]</value>
+  </data>
+  <data name="Toast_Message_Reminder_CN_Offline" xml:space="preserve">
+    <value>[Þļéåšé çöññéçţ ţö ţĥé îñţéŕñéţ åñð ŕéĝîšţéŕ ţö åçţîṽåţé ýöûŕ šéŕṽîçé-------------------- П國カ내]</value>
+  </data>
+</root>
