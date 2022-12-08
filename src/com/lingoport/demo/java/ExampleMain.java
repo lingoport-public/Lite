@@ -57,8 +57,7 @@ public class ExampleMain {
         changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
         frame.pack();
         frame.setVisible(true);
-	// Bad string
-	String badTodd = " Bad Todd, Bad!";
+
 	// Will the following be detected?
 	String strTitle = "Address book: "   + locale;
         // Below would be the i18n refactoring for this app
