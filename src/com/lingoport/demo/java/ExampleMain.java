@@ -49,6 +49,7 @@ public class ExampleMain {
     	I18nUtils.setLocale(locale); // $NON-NLS-L$
 
         //-- Make an invisible frame to attach the dialog to
+	String ACCOUNT="Account Name";
         JFrame frame = new JFrame(); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ExamplePanel panel = new ExamplePanel();
@@ -56,6 +57,7 @@ public class ExampleMain {
         changeFont(frame, new Font("Courier", Font.BOLD,28));  // $NON-NLS-L$
         frame.pack();
         frame.setVisible(true);
+
 	// Will the following be detected?
 	String strTitle = "My Addresses: "   + locale;
         // Below would be the i18n refactoring for this app
