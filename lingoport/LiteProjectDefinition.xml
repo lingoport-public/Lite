@@ -26,8 +26,8 @@
   <scans>
     <scan>
       <scan-name>Java RS</scan-name>
-      <ruleset-name>java2</ruleset-name>
-      <ruleset-owner>bob@reginaco.com</ruleset-owner>
+      <ruleset-name>6.4 Java</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
       <use-machine-learning>true</use-machine-learning>
       <encoding>systemDefault</encoding>
       <checks>
