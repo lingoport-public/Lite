@@ -180,7 +180,7 @@ public class ExamplePanel extends JPanel {
         TitledBorder tb = new TitledBorder(new LineBorder(Color.darkGray),                                        
                                            I18nUtils.getLocale()
          									+
-         									" for Today: ");
+         									" for today: ");
         datePanel_.setBorder(tb);
         datePanel_.setToolTipText("Displays today's date and time.");
 
@@ -217,6 +217,8 @@ public class ExamplePanel extends JPanel {
         constraints.gridx = 1;
         constraints.gridy = 0;
         constraints.weightx = 0.0;
+	    
+	String welcomeText = "Welcome to Rebel Outfitters Mister " + name_ ; 
         
         // Fix the code by adding a locale, here French, which really should come from a Locale framework
         // datePanel_.add(new JLabel(DateFormat.getDateInstance(DateFormat.FULL, I18nUtils.getLocale()).format(today_)), constraints); // $NON-NLS-L$ 
