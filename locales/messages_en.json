@@ -1,4 +1,6 @@
 {
   "hello": "Hello",
-  "goodbye": "Goodbye"
+  "goodbye": "Goodbye",
+  "welcome": "Welcome"
+  "error": "Error"
 }
