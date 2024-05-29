@@ -1,6 +1,6 @@
 {
   "hello": "Hello",
-  "goodbye": "Goodbye",
-  "welcome": "Welcome",
+  "copyright": "<p>&copy; 2024 Feather company. All rights reserved.</p>",
+  "welcome": "Welcome to Feather, {username}",
   "error": "Error"
 }
