@@ -1,0 +1,6 @@
+﻿{
+  "hello": "Bonjour",
+  "copyright": "<p>&copy ; 2024 entreprise de plumes. Tous droits réservés.</p>",
+  "welcome": "Bienvenue dans Feather, {username}",
+  "error": "Erreur"
+}
