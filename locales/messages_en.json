@@ -2,5 +2,6 @@
   "hello": "Hello",
   "copyright": "<p>&copy; 2024 Feather company. All rights reserved.</p>",
   "welcome": "Welcome to Feather, {username}",
-  "error": "Error"
+  "error": "Error",
+  "callbacktest": "Callback test"
 }
