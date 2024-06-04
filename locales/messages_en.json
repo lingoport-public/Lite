@@ -4,5 +4,21 @@
   "welcome": "Welcome",
   "error": "Error",
   "user": "Hello Player {playername} ",
+  "New": { 
+    "hello": "Hello",
+    "goodbye": "Goodbye",
+    "welcome": "Welcome",
+    "error": "Error"
+  },
+  "create": "Create",
+  "menu": {
+    "generate": "Generate",
+    "overview": "Overview",
+    "clarity": "Clarity",
+    "nurture": "Nurture",
+    "configuration": "Configurations",
+    "sync": "Syncs"
+  },
+  "user": "Hello Player {playername} ",
   "address": "Enter your address below:"
 }
