@@ -2,5 +2,7 @@
   "hello": "Bonjour",
   "goodbye": "Au revoir",
   "welcome": "Bienvenue",
-  "error": "Erreur"
+  "error": "Erreur",
+  "user": "Bonjour le joueur {playername} ",
+  "address": "Saisissez votre adresse ci-dessous :"
 }
