@@ -2,7 +2,7 @@
   "hello": "Hello",
   "goodbye": "Goodbye",
   "welcome": "Welcome",
-  "error": "Error",
+  "error": "Login Error, please check your username and password",
   "user": "Hello Player {playername} ",
   "New": { 
     "hello": "Hello",
