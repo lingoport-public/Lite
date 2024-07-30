@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string translatable="false" name="finish_onboarding_deeplink">[ƒîñîšĥÖñƀöåŕðîñĝ--------- П國カ내]</string>
-    <string name="finish_onboarding_deeptest">[ţéšţ ĥÖñƀöåŕðîñĝ--------- П國カ내]</string>
+    <string translatable="false" name="finish_onboarding_deeplink">[ĥţţþš://ƒîñîšĥÖñƀöåŕðîñĝ------------ П國カ내]</string>
+    <string translatable="true" name="finish_onboarding_deeptest">[ţéšţ ĥÖñƀöåŕðîñĝ--------- П國カ내]</string>
 </resources>
