@@ -18,8 +18,8 @@
     <scan>
       <!-- create and execute a single scan with this info -->
       <scan-name>Java</scan-name>
-      <ruleset-name>Java Rule Set</ruleset-name>
-      <ruleset-owner>demo@lingoport.com</ruleset-owner>
+      <ruleset-name>6.4 Java</ruleset-name>
+      <ruleset-owner>olibouban@lingoport.com</ruleset-owner>
       <!-- Scans all files by default. Uncomment the following 
            to scan only specific directories and files -->
       <!--

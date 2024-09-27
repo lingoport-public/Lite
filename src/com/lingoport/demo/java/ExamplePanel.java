@@ -121,6 +121,17 @@ public class ExamplePanel extends JPanel {
         Locale lc = I18nUtils.getLocale();
         bi = java.text.BreakIterator.getCharacterInstance(lc);
         
+        ImageIcon exitButtonIcon = ImageHelper.createImageIcon("images/exit.jpg");
+        exitButton_ = new JButton(exitButtonIcon);
+        exitButton_.setToolTipText("Exit");
+        exitButton_.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+                Debug.log("Exit action taken. Bye!");
+                System.exit(0);
+            }
+        });
+
         ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
         addButton_ = new JButton( addButtonIcon);
         addButton_.setToolTipText("Add Record");
