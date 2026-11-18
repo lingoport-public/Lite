@@ -20,7 +20,7 @@
         <static-file-references>true</static-file-references>
       </checks>
       <scan-items>
-        <item>**/com/lingoport/demo/java/utils/**</item>
+        <item>src/com/lingoport/demo/java/utils</item>
       </scan-items>
 
     </scan>
