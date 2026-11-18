@@ -8,6 +8,8 @@
     <base-url>https://bedrock-mantle.us-east-1.api.aws/anthropic/v1/messages</base-url>
     <api-format>claude</api-format>
   </login>
+  <extensions>ts,tsx</extensions>
+  <exclusions>**/util/**,**/.settings/**</exclusions>
   <project-path>C:\Users\Olivier\git\Lite</project-path>
   <report-path>globalyzer-lite-reports</report-path>
   <scans>
