@@ -19,7 +19,9 @@
         <general-patterns>true</general-patterns>
         <static-file-references>true</static-file-references>
       </checks>
-      <scan-items/>
+      <scan-items>
+        <item>**/com/lingoport/demo/java/utils/**</item>
+      </scan-items>
 
     </scan>
   </scans>
