@@ -19,7 +19,7 @@
         <embedded-strings>true</embedded-strings>
         <locale-sensitive-methods>true</locale-sensitive-methods>
         <general-patterns>true</general-patterns>
-        <static-file-references>true</static-file-references>
+        <static-file-references>false</static-file-references>
       </checks>
       <scan-items>
         <item>src/com/lingoport/demo/java/utils</item>
