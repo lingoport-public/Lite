@@ -21,6 +21,7 @@
       </checks>
       <scan-items>
         <item>src/com/lingoport/demo/java/utils</item>
+        <item>src/com/lingoport/demo/java/ExampleMain.java</item>
       </scan-items>
 
     </scan>
