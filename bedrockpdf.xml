@@ -10,7 +10,7 @@
   </login>
   <extensions>js,java</extensions>
   <exclusions>**/.settings/**</exclusions>
-  <project-path>C:\Users\Olivier\git\Lite</project-path>
+  <project-path>C:\Users\johndoe\git\Lite</project-path>
   <report-path>globalyzer-lite-reports</report-path>
   <scans>
 
