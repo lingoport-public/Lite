@@ -13,13 +13,11 @@
   <project-path>C:\Users\johndoe\git\Lite</project-path>
   <report-path>globalyzer-lite-reports</report-path>
   <scans>
-
     <scan>
       <scan-items>
         <item>src/com/lingoport/demo/java/utils</item>
         <item>src/com/lingoport/demo/java/ExampleMain.java</item>
       </scan-items>
-
     </scan>
   </scans>
 </gzproject>
